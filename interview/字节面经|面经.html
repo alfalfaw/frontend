@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>字节跳动前端面试 | 大前端研究所</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/frontend/favicon.ico">
+    <meta name="description" content="欢迎关注公众号：大前端研究所">
+    
+    <link rel="preload" href="/frontend/assets/css/0.styles.7c5de612.css" as="style"><link rel="preload" href="/frontend/assets/js/app.81e51045.js" as="script"><link rel="preload" href="/frontend/assets/js/2.b2951490.js" as="script"><link rel="preload" href="/frontend/assets/js/14.59046f73.js" as="script"><link rel="prefetch" href="/frontend/assets/js/10.6942882c.js"><link rel="prefetch" href="/frontend/assets/js/11.8cf1fb5d.js"><link rel="prefetch" href="/frontend/assets/js/12.dd903ed4.js"><link rel="prefetch" href="/frontend/assets/js/13.d2b10253.js"><link rel="prefetch" href="/frontend/assets/js/15.08f63d2d.js"><link rel="prefetch" href="/frontend/assets/js/16.10da3fa2.js"><link rel="prefetch" href="/frontend/assets/js/3.66d53e08.js"><link rel="prefetch" href="/frontend/assets/js/4.60aa8e5e.js"><link rel="prefetch" href="/frontend/assets/js/5.3075a5b6.js"><link rel="prefetch" href="/frontend/assets/js/6.2cb66473.js"><link rel="prefetch" href="/frontend/assets/js/7.61c88007.js"><link rel="prefetch" href="/frontend/assets/js/8.87b399e5.js"><link rel="prefetch" href="/frontend/assets/js/9.ba78b3d4.js">
+    <link rel="stylesheet" href="/frontend/assets/css/0.styles.7c5de612.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/frontend/" class="home-link router-link-active"><!----> <span class="site-name">大前端研究所</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/frontend/blog/" class="nav-link">
+  博客
+</a></div><div class="nav-item"><a href="/frontend/share/" class="nav-link">
+  分享
+</a></div><div class="nav-item"><a href="/frontend/interview/" class="nav-link router-link-active">
+  面试
+</a></div> <a href="https://github.com/alfalfaw/frontend" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/frontend/blog/" class="nav-link">
+  博客
+</a></div><div class="nav-item"><a href="/frontend/share/" class="nav-link">
+  分享
+</a></div><div class="nav-item"><a href="/frontend/interview/" class="nav-link router-link-active">
+  面试
+</a></div> <a href="https://github.com/alfalfaw/frontend" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>面经</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/frontend/interview/" aria-current="page" class="sidebar-link">简介</a></li><li><a href="/frontend/interview/字节面经|面经.html" class="active sidebar-link">字节跳动前端面试</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/frontend/interview/字节面经|面经.html#一面" class="sidebar-link">一面：</a></li><li class="sidebar-sub-header"><a href="/frontend/interview/字节面经|面经.html#二面" class="sidebar-link">二面</a></li><li class="sidebar-sub-header"><a href="/frontend/interview/字节面经|面经.html#三面" class="sidebar-link">三面</a></li><li class="sidebar-sub-header"><a href="/frontend/interview/字节面经|面经.html#面试感受" class="sidebar-link">面试感受</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="字节跳动前端面试"><a href="#字节跳动前端面试" class="header-anchor">#</a> 字节跳动前端面试</h1> <h2 id="一面"><a href="#一面" class="header-anchor">#</a> 一面：</h2> <h3 id="js-基础数据类型有哪些"><a href="#js-基础数据类型有哪些" class="header-anchor">#</a> JS 基础数据类型有哪些?</h3> <p>Number、String、BigInt、Boolean 、Undefined、Null、Symbol</p> <p>补充复杂类型：Object</p> <h3 id="this-的指向"><a href="#this-的指向" class="header-anchor">#</a> this 的指向</h3> <div class="language- extra-class"><pre class="language-text"><code>function a(){console.log(this)} a()  // Window
+var b = { a: a} b.a() // b
+</code></pre></div><h3 id="new-a"><a href="#new-a" class="header-anchor">#</a> new A()</h3> <ol><li>在内存中创建一个新的空对象</li> <li>让 this 指向这个空对象</li> <li>执行构造函数里面的代码(给这个新对象添加属性和方法)</li> <li>返回这个新对象</li></ol> <h3 id="实现下二叉树的深度遍历-筛选不重复节点的名字"><a href="#实现下二叉树的深度遍历-筛选不重复节点的名字" class="header-anchor">#</a> 实现下二叉树的深度遍历，筛选不重复节点的名字</h3> <p>深度优先</p> <div class="language- extra-class"><pre class="language-text"><code>function mapDom(tree) {
+  let visited = [];
+
+  let traverse = function (node) {
+    if (node.left) traverse(node.left);
+    if (!visited.contains(node)) {
+      visited.push(node);
+    }
+    if (node.right) traverse(node.right);
+  };
+  traverse(tree.root);
+  return visited;
+}
+</code></pre></div><p>广度优先</p> <div class="language- extra-class"><pre class="language-text"><code>function mapDom(tree) {
+  let visited = [];
+  let queue = [];
+  queue.push(tree.root);
+
+  while (queue.length) {
+    let current = queue.shift();
+    if (!visited.contains(current)) {
+      visited.push(current);
+    }
+    if (current.left) {
+      queue.push(current.left);
+    }
+    if (current.right) {
+      queue.push(current.right);
+    }
+  }
+  return visited;
+}
+</code></pre></div><h3 id="flex-是哪三个属性简写"><a href="#flex-是哪三个属性简写" class="header-anchor">#</a> flex 是哪三个属性简写</h3> <p>flex-grow 定义项目的放大比例，默认为 0(即使有空间也不放大)</p> <p>flex-shrink 定义项目的缩小比例，默认为 1(空间不足时自动缩小)</p> <p>flex-basis 定义项目初始宽度，默认为 auto(项目本来大小)</p> <h3 id="用-css-实现朝上的红色三角"><a href="#用-css-实现朝上的红色三角" class="header-anchor">#</a> 用 css 实现朝上的红色三角</h3> <div class="language- extra-class"><pre class="language-text"><code>div {
+  width: 0;
+  height: 0;
+  border: 2em solid transparent;
+  border-bottom-color: red;
+}
+</code></pre></div><h3 id="cdn-如何工作"><a href="#cdn-如何工作" class="header-anchor">#</a> cdn 如何工作</h3> <p>CDN 的全称是 Content Delivery Network，即内容分发网络。CDN 是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN 的关键技术主要有内容存储和分发技术。</p> <h3 id="选择器的权重"><a href="#选择器的权重" class="header-anchor">#</a> 选择器的权重</h3> <p>!important 最高</p> <p>内联样式 权值 1000</p> <p>#id 权值 100</p> <p>类、伪类选择器 权值 10</p> <p>元素、伪元素选择器 权值为 1</p> <p>通配符(*)、子选择器(&gt;)、相邻选择器 权值 0</p> <p>继承样式没有权值</p> <blockquote><p>11 个类选择器虽然权值之和大于一个 id 选择器，但是浏览器还是优先解析 id 选择器</p></blockquote> <h3 id="设置宽高为-100px-的盒子-包括哪些内容"><a href="#设置宽高为-100px-的盒子-包括哪些内容" class="header-anchor">#</a> 设置宽高为 100px 的盒子，包括哪些内容</h3> <p>box-sizing 有三个属性</p> <p>content-box(默认盒子)，height 和 width 设置的是内容的宽高，实际盒子宽度=左右 border+左右 padding+width</p> <p>border-box，height 和 width 包括了的内容、内边距和边框，实际盒子宽度=width</p> <h3 id="浏览器兼容性"><a href="#浏览器兼容性" class="header-anchor">#</a> 浏览器兼容性</h3> <p>使用厂商前缀</p> <p>can i use 查看属性兼容性</p> <h3 id="如何打破-promise-链"><a href="#如何打破-promise-链" class="header-anchor">#</a> 如何打破 Promise 链</h3> <div class="language- extra-class"><pre class="language-text"><code>fetch(&quot;https://v1.hitokoto.co&quot;)
+  .then((res) =&gt; res.json())
+  .then((data) =&gt; console.log(data))
+  .catch((err) =&gt; console.log(&quot;错误&quot;))
+  .then((res) =&gt; console.log(&quot;错误被捕获后, .then 执行了&quot;))
+  .catch((err) =&gt; console.log(&quot;错误被捕获后, .catch 不执行&quot;));
+</code></pre></div><blockquote><p>上面代码输出如下</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>错误
+错误被捕获后, .then 执行了
+</code></pre></div><p>感觉没有答案...</p> <h3 id="position-fixed-如何不相对于浏览器定位"><a href="#position-fixed-如何不相对于浏览器定位" class="header-anchor">#</a> position:fixed 如何不相对于浏览器定位</h3> <p>给其祖先结点加上 transform 为非 none。</p> <h3 id="cache-control"><a href="#cache-control" class="header-anchor">#</a> cache-control</h3> <p>响应头</p> <p>expires 过期时间(时间戳)，在这个时间内使用强缓存 单位：毫秒</p> <p>cache-control 设置浏览器多长时间内再次请求会命中强缓存 单位：秒</p> <p>-no-cache 不使用本地缓存</p> <p>-no-store 禁止浏览器缓存</p> <p>etag 第一次请求时，响应头包含该字段，第二次请求时，请求头的 If-None-Match 就是 etag 值，服务端拿到 etag，对比资源是否发生变化，若没有变化，返回 304</p> <p>last-modified 第一次请求 URL 时，响应头包含该字段，标志文件在服务器最后被修改时间</p> <p>If-Modified-Since 第二次请求 URL 时，请求头包含该字段，向服务器询问该文件是否修改，没有修改返回 304，直接从缓存读取。</p> <h3 id="expires-和-cache-control-区别"><a href="#expires-和-cache-control-区别" class="header-anchor">#</a> expires 和 cache-control 区别：</h3> <p>expires 有一个缺陷，即要求服务端和客户端时间同步，如果不同步，假如服务器慢了，传给客户端的时间可能一直过期了。</p> <h3 id="vue-nexttick-和-nodejs-nexttick"><a href="#vue-nexttick-和-nodejs-nexttick" class="header-anchor">#</a> Vue nextTick 和 nodejs nextTick</h3> <p>更改 dom 元素内部文本后，需要 dom 更新后才能获得更改后的内容。this.$nextTick()可以将回调延迟到下次 DOM 更新循环之后执行。</p> <h3 id="nodejs-事件循环"><a href="#nodejs-事件循环" class="header-anchor">#</a> Nodejs 事件循环</h3> <p>NodeJS 将异步任务交给内核完成，在任务完成时，内核通知 NodeJS 将回调函数添加到轮询队列中等待时机执行。</p> <h3 id="垂直居中"><a href="#垂直居中" class="header-anchor">#</a> 垂直居中</h3> <h3 id="position-absolute-不设置-top、left-会怎样"><a href="#position-absolute-不设置-top、left-会怎样" class="header-anchor">#</a> position:absolute 不设置 top、left 会怎样</h3> <p>保持正常文档流位置，但不占用空间</p> <h3 id="get-和-post-的区别"><a href="#get-和-post-的区别" class="header-anchor">#</a> get 和 post 的区别</h3> <ul><li>GET 将数据附在 URL 之后，POST 则是放在 HTTP 包中</li> <li>GET 长度受到 url 长度限制，POST 没有大小限制</li> <li>POST 安全性比 GET 高</li> <li>GET 只允许 ASCII，POST 没有限制</li> <li>GET 后退刷新无害，POST 重新提交表单</li></ul> <h3 id="fetch-发送-2-次请求的原因"><a href="#fetch-发送-2-次请求的原因" class="header-anchor">#</a> fetch 发送 2 次请求的原因</h3> <p>fetch 发送 post 请求的时候，总是发送 2 次，第一次状态码是 204，第二次才成功？原因很简单，因为你用 fetch 发送 post 请求的时候，fetch 第一次发送了一个 Options 请求，询问服务器是否支持修改的请求头，如果服务器支持，则在第二次中发送真正的请求。</p> <h3 id="js-垃圾回收机制"><a href="#js-垃圾回收机制" class="header-anchor">#</a> js 垃圾回收机制</h3> <p>一般来说，没有被引用的对象就是垃圾，就是要被清除，有个例外如果有几个对象引用形成一个环，互相引用，但根访问不到他们，这几个对象也是垃圾。</p> <p>如何检查垃圾</p> <p>使用标记-清除算法</p> <h2 id="二面"><a href="#二面" class="header-anchor">#</a> 二面</h2> <h3 id="进程通信方式"><a href="#进程通信方式" class="header-anchor">#</a> 进程通信方式</h3> <ul><li>管道通信</li> <li>信号及信号量通信</li> <li>共享内存</li> <li>socket</li></ul> <p>补充 Node 进程通信方式</p> <ul><li><p>通过 stdin/stdout 传递</p></li> <li><p>Node 原生 IPC 支持</p></li> <li><p>通过 sockets</p></li> <li><p>借助 message queue</p></li></ul> <h3 id="如何防止盗链"><a href="#如何防止盗链" class="header-anchor">#</a> 如何防止盗链</h3> <p>判断引用地址</p> <p>请求头中包含 Referer 字段，如果这个字段的值是自己的域名，则响应请求，否则返回错误信息</p> <h3 id="图片格式有哪些-webp-是什么"><a href="#图片格式有哪些-webp-是什么" class="header-anchor">#</a> 图片格式有哪些？webp 是什么</h3> <p>bmp、jpg、png、gif、svg、webp</p> <p>webp 是一种同时提供了有损压缩与无损压缩（可逆压缩）的图片文件格式。webp 可以在压缩的同时又不影响图片格式兼容与实际清晰度，进而让整体网页下载速度加快。</p> <h3 id="git-命令有哪些-git-tag-是什么"><a href="#git-命令有哪些-git-tag-是什么" class="header-anchor">#</a> git 命令有哪些？git tag 是什么</h3> <p><code>git tag &lt;tagname&gt;</code>基于最新提交创建标签</p> <h3 id="如何撤销已提交的代码"><a href="#如何撤销已提交的代码" class="header-anchor">#</a> 如何撤销已提交的代码</h3> <p>方法一</p> <p>远程回退</p> <div class="language- extra-class"><pre class="language-text"><code>git push origin &lt;commit_id&gt;:&lt;branch&gt;
+</code></pre></div><blockquote><p><code>commit_id</code>可以通过<code>git log</code>查看，或者在直接从 github 网站上复制</p></blockquote> <p>本地回退</p> <div class="language- extra-class"><pre class="language-text"><code>git reset --hard &lt;commit_id&gt;
+</code></pre></div><p>方法二</p> <div class="language- extra-class"><pre class="language-text"><code>git reset --hard &lt;commit_id&gt;
+git push origin +&lt;branch&gt;
+</code></pre></div><blockquote><p>注意版本号前面的<code>+</code> ，它类似于<code>--force</code>，但略有不同，省略后提交会失败</p></blockquote> <h3 id="nginx-有哪些配置项"><a href="#nginx-有哪些配置项" class="header-anchor">#</a> Nginx 有哪些配置项</h3> <p>listen、server_name、location、root 等</p> <h3 id="使用-shell-读取指定行或列"><a href="#使用-shell-读取指定行或列" class="header-anchor">#</a> 使用 shell 读取指定行或列</h3> <div class="language- extra-class"><pre class="language-text"><code>sed -n '5,10p' /etc/passwd;
+</code></pre></div><h3 id="如果加载大量图片需要怎么做"><a href="#如果加载大量图片需要怎么做" class="header-anchor">#</a> 如果加载大量图片需要怎么做</h3> <p>懒加载、雪碧图</p> <h3 id="雪碧图怎么实现"><a href="#雪碧图怎么实现" class="header-anchor">#</a> 雪碧图怎么实现</h3> <p>将小图标和背景图像合并到一张图片上，然后利用 css 的背景定位来显示需要显示的图片部分</p> <h3 id="正向代理和反向代理"><a href="#正向代理和反向代理" class="header-anchor">#</a> 正向代理和反向代理</h3> <p>正向代理：客户端将请求发送给代理服务器，再由代理服务器进行发送请求，获得的响应也通过这种方式。</p> <p>反向代理：客户端发送请求后，请求被转发到服务端的某个端口</p> <h3 id="大数相加"><a href="#大数相加" class="header-anchor">#</a> 大数相加</h3> <div class="language- extra-class"><pre class="language-text"><code>function bigNumberSum(a, b) {
+  // 123456789
+  // 000009876
+
+  // padding
+  let cur = 0;
+  while (cur &lt; a.length || cur &lt; b.length) {
+    if (!a[cur]) {
+      a = &quot;0&quot; + a;
+    } else if (!b[cur]) {
+      b = &quot;0&quot; + b;
+    }
+    cur++;
+  }
+
+  let carried = 0;
+  const res = [];
+
+  for (let i = a.length - 1; i &gt; -1; i--) {
+    const sum = carried + parseInt(a[i]) + parseInt(b[i]);
+    if (sum &gt; 9) {
+      carried = 1;
+    } else {
+      carried = 0;
+    }
+    res[i] = sum % 10;
+  }
+  if (carried === 1) {
+    res.unshift(1);
+  }
+
+  return res.join(&quot;&quot;);
+}
+console.log(bigNumberSum(&quot;1122&quot;, &quot;3344&quot;));
+</code></pre></div><h3 id="实现一个时钟动画"><a href="#实现一个时钟动画" class="header-anchor">#</a> 实现一个时钟动画</h3> <p>html</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;div class=&quot;clock-wrapper&quot;&gt;
+  &lt;div class=&quot;clock&quot;&gt;
+    &lt;div class=&quot;hour&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><p>css</p> <div class="language- extra-class"><pre class="language-text"><code>.clock-wrapper {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  padding: 2%;
+  background: #333;
+  border-radius: 50%;
+}
+.clock {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.clock div {
+  position: absolute;
+  height: 2px;
+  width: 50%;
+  background: white;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transform-origin: 100%;
+  animation: rotate 60s infinite linear;
+}
+@keyframes rotate {
+  0% {
+    transform: translateY(-50%) rotate(0);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+</code></pre></div><p><a href="https://imgchr.com/i/UY081S" target="_blank" rel="noopener noreferrer"><img src="https://upload-images.jianshu.io/upload_images/20823417-382f529a05d111ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="UY081S.png"><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="三面"><a href="#三面" class="header-anchor">#</a> 三面</h2> <h3 id="前几面的感受"><a href="#前几面的感受" class="header-anchor">#</a> 前几面的感受</h3> <h3 id="你觉得难的问题"><a href="#你觉得难的问题" class="header-anchor">#</a> 你觉得难的问题</h3> <h3 id="ajax-请求"><a href="#ajax-请求" class="header-anchor">#</a> ajax 请求</h3> <div class="language- extra-class"><pre class="language-text"><code>function ajax(url) {
+  const xhr = new XMLHttpRequest();
+  xhr.open(&quot;GET&quot;, url);
+  xhr.send();
+  xhr.onload = function () {
+    if (this.status === 200) {
+      console.log(this.response);
+    }
+  };
+}
+</code></pre></div><h3 id="发送-json-数据"><a href="#发送-json-数据" class="header-anchor">#</a> 发送 json 数据</h3> <div class="language- extra-class"><pre class="language-text"><code>function ajax(url, data) {
+  const xhr = new XMLHttpRequest();
+  xhr.open(&quot;POST&quot;, url, true);
+  xmlhttp.setRequestHeader(&quot;Content-Type&quot;, &quot;application/json;charset=UTF-8&quot;);
+  xhr.send(JSON.stringify(data));
+  xhr.onload = function () {
+    if (this.status === 201) {
+      console.log(this.response);
+    }
+  };
+}
+</code></pre></div><h3 id="大数相乘"><a href="#大数相乘" class="header-anchor">#</a> 大数相乘</h3> <div class="language- extra-class"><pre class="language-text"><code>let multiply = function (num1, num2) {
+  //判断输入是不是数字
+  if (isNaN(num1) || isNaN(num2)) return &quot;&quot;;
+  let len1 = num1.length,
+    len2 = num2.length;
+  let ans = [];
+
+  //这里倒过来遍历很妙,不需要处理进位了
+  for (let i = len1 - 1; i &lt;= 0; i--) {
+    for (let j = len2 - 1; j &gt;= 0; j--) {
+      let index1 = i + j,
+        index2 = i + j + 1;
+      let mul = num1[i] * num2[j] + (ans[index2] || 0);
+      ans[index1] = Math.floor(mul / 10) + (ans[index1] || 0);
+      ans[index2] = mul % 10;
+    }
+  }
+
+  //去掉前置0
+  let result = ans.join(&quot;&quot;).replace(/^0+/, &quot;&quot;);
+
+  //不要转成数字判断，否则可能会超精度！
+  return !result ? &quot;0&quot; : result;
+};
+</code></pre></div><h3 id="js-中多大的数称为大数"><a href="#js-中多大的数称为大数" class="header-anchor">#</a> js 中多大的数称为大数</h3> <p>超出<code>Number.MAX_VALUE</code>(1.7976931348623157e+308)</p> <h3 id="http-响应码"><a href="#http-响应码" class="header-anchor">#</a> http 响应码</h3> <p>参考https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status</p> <h3 id="对-ajax-请求进行-promise-封装"><a href="#对-ajax-请求进行-promise-封装" class="header-anchor">#</a> 对 ajax 请求进行 promise 封装</h3> <div class="language- extra-class"><pre class="language-text"><code>function ajax(url) {
+  return new Promise((resolve, reject) =&gt; {
+    const xhr = new XMLHttpRequest();
+    xhr.open(&quot;GET&quot;, url);
+    xhr.send();
+    xhr.onreadystatechange = function () {
+      if (this.readyState == 4) {
+        if (this.status == 200) {
+          try {
+            let response = JSON.parse(this.responseText);
+            resolve(response);
+          } catch (e) {
+            reject(e);
+          }
+        } else {
+          reject(new Error(this.statusText));
+        }
+      }
+    };
+  });
+}
+</code></pre></div><h3 id="你有什么问题"><a href="#你有什么问题" class="header-anchor">#</a> 你有什么问题</h3> <p>可以从岗位工作内容、对产品看法、以及某个技术问题回答</p> <h2 id="面试感受"><a href="#面试感受" class="header-anchor">#</a> 面试感受</h2> <h3 id="面试前准备"><a href="#面试前准备" class="header-anchor">#</a> 面试前准备</h3> <h4 id="心理准备"><a href="#心理准备" class="header-anchor">#</a> 心理准备</h4> <p>面试官大部分年纪都不大，没有那种咄咄逼人的感觉，大多数都以平等的姿态和你沟通，所以不必要太紧张。</p> <h4 id="知识储备"><a href="#知识储备" class="header-anchor">#</a> 知识储备</h4> <ul><li>面经</li> <li>算法题</li> <li>前端基础知识(JS、CSS、Vue/React)</li> <li>项目经历</li></ul> <p>以上内容除了最后一个都可以在牛客网找到</p> <h3 id="面试问题"><a href="#面试问题" class="header-anchor">#</a> 面试问题</h3> <p>如果是应届生，字节面试会以考察计算机基础(计算机网络、操作系统、数据结构)为主，应该好好复习这一块知识，笔者以为只会考察网络，结果二面时问了许多操作系统，就没答上来，本来以为二面就凉了，后来还是收到三面通知，这是让我比较意外的。字节大多数技术岗位都重视算法，前端面试算法虽然不会太难，但会考察各类经典题型的变种，所以光靠熟悉各种经典题型是不够的，还要掌握一类题的解题思路。</p> <h3 id="最后想说的"><a href="#最后想说的" class="header-anchor">#</a> 最后想说的</h3> <p>每一轮面试完后，如果几个小时内没有人联系你，最好打电话问一下面试结果，即使没有出结果，也可以加深面试官对你的印象，让人觉得你很重视这份工作。字节面试结果一般出的比较快，如果能力强的，面试完当天 oc 的也有，笔者属于比较菜的，三轮面试完后了无音讯，七天后成了凉面。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/alfalfaw/frontend/edit/main/docs/interview/字节面经|面经.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">12/11/2020, 5:29:08 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/frontend/interview/" class="prev router-link-active">
+        简介
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/frontend/assets/js/app.81e51045.js" defer></script><script src="/frontend/assets/js/2.b2951490.js" defer></script><script src="/frontend/assets/js/14.59046f73.js" defer></script>
+  </body>
+</html>
